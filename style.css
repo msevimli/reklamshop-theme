@@ -12,3 +12,16 @@ a:focus, button:focus, .button.alt:focus, input:focus, textarea:focus, input[typ
 a:focus, input:focus, textarea:focus, button:focus {
     outline: unset;
 }
+@media screen and (min-width: 768px) {
+    .site-header {
+        padding-top: 0.9em;
+    }
+    /* Navigation Height */
+    .main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a {
+        padding: 5px 1em;
+    }
+    .site-header-cart .cart-contents {
+        padding: 5px;
+    }
+    /* Navigation Height End */
+}
