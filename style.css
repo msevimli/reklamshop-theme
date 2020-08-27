@@ -24,4 +24,13 @@ a:focus, input:focus, textarea:focus, button:focus {
         padding: 5px;
     }
     /* Navigation Height End */
+    .site-header .site-branding img {
+        max-width: 175px;
+    }
+    .site-branding, .site-search, .site-header-cart, .site-logo-anchor, .site-logo-link, .custom-logo-link {
+        margin-bottom: 10px;
+    }
+    .storefront-primary-navigation {
+        border-top: 1px solid #f0f0f0;
+    }
 }
